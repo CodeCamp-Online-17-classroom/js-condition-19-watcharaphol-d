@@ -1,17 +1,9 @@
-# js-lab-35
-### Lab35 Conditiona: Refractor4
-เปลี่ยน if-else ข้างล่างให้อยู่ในรูปของ Ternary Operators
-
-```JavaScript
-let login = prompt('Enter username');
-let message;
-if (login == 'Employee') {
-  message = 'Hello';
-} else if (login == 'Director') {
-  message = 'Greetings';
-} else if (login == '') {
-  message = 'No login';
-} else {
-  message = '';
-}
-```
+# js-lab-36
+### Lab36 Conditiona: Refractor5
+- จงเขียนโค้ดเพื่อรับคะแนนมาคำนวณเกรด
+- ถ้าคะแนน มากกว่าเท่ากับ 80 ได้ A
+- ถ้าคะแนน อยู่ระหว่าง 70 - 79 ได้ B
+- ถ้าคะแนน อยู่ระหว่าง 60 - 69 ได้ C
+- ถ้าคะแนน อยู่ระหว่าง 50 - 59 ได้ D
+- ถ้าคะแนน น้อยกว่า 50 ได้ F
+ให้เขียนโค้ดในรูปแบบ Ternary Operators
